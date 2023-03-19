@@ -14,7 +14,7 @@ const projects = [
       technologies: ["Python", "Django", "PostgreSQL"],
       image: "project2.png",
       link: "https://www.example.com/project2",
-    },gi
+    },
     {
       id: 3,
       name: "Project 3",
@@ -46,5 +46,5 @@ const projects = [
     projectDetails.innerHTML = `
       <h2>${project.name}</h2>
       <img src="${project.image}" alt="${project.name}">
-      <p>${project.description}</
-  
+      <p>${project.description}</>`
+  }
